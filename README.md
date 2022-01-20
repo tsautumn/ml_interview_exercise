@@ -2,9 +2,18 @@
 ML interview exercise for Audette
 
 ### Files
-- Generate.ipynb - Poorly documented notebook to create training and question data
-- Demo.ipynb - an example solution with LGBM
+#### For the exercise
 - Exercise.ipynb - a template that appropriately loads the data and the questions
+- dataset.csv - training/test data
+- questions.csv - three rows for prediction and discussion
+
+### For Audette
+- Generate.ipynb - Poorly documented notebook to create training and question data
+- Building....xlsx - your raw excel, needed by Generate.ipynb
+- Demo.ipynb - an example solution with LGBM
+- requirements.txt - environment *I* used for Generate.ipynb.
+- poetry/pyproject/.pythhon-version - if you have to ask, you can ignore them.
+
 
 ### Assignment
 1. Create and test a very basic-but-functional ensemble tree classifier (eg, LightGBM) using dataset.csv.  
