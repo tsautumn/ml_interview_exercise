@@ -30,3 +30,17 @@ ML interview exercise for Audette
     - Next steps in making the model more robust?
 
 4. Imagine you're asked to make a very expensive recommendation based on the model's prediction.  How do you feel for each of row 1, 2, and 3 in questions.csv?
+
+### Rubric
+- I'll help you evaluate their discussion.  Some of it might make great interview discussion-fodder.
+
+- Did they acknowledge leaving defaults in the classifier?   
+
+- One important default is that TRAIN_FRAC in the template notebook is at .5.  That's a weird choice, so if they leave it without discussion, that's a flag.  No matter what they choose, ask them why they chose it in the interview and take notes for me.
+
+- Did they discuss hyperparameter tuning?
+
+- Regarding their predictions:
+	- Row 1 should be very confident
+	- Row 2 should not be confident
+	- Row 3 is the trick question.  Very unlikely they'll catch it in the exercise, there's no time to do a proper data evaluation.  But you could lead them to it in the interview.  EG: "You didn't really have time for data analysis, but row 3 has two values higher than anything in the training data.  They're both in the top 5 most important features.  How much does that shake your confidence in the prediction?"
