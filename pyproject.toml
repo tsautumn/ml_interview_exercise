@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "audette"
+version = "0.1.0"
+description = ""
+authors = ["Autumn Umanetz <aumanetz@bgcengineering.ca>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+sklearn = "^0.0"
+lightgbm = "^3.3.2"
+pandas = "^1.3.5"
+matplotlib = "^3.5.1"
+
+[tool.poetry.dev-dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
