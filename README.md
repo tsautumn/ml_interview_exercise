@@ -14,10 +14,10 @@ ML interview exercise for Audette
 
 2. Apply your model to the three rows in questions.csv.
 
-3. Write a half-page document about your model.  Speak to:
-- Key assumptions made in the interest of a quick prototype
-- Concerns you'd bring up to the stakeholders about the model
-- Any thoughts on a data cleaning process.  Speak to which features deserve the most attention and why
-- Your next steps if improving accuracy is a key consideration
+3. Do a short writeup about your model.  Keep it down to about 300 words, point form is fine.  Speak to:
+- Key assumptions, concerns, and limitations
+- How would you verify that you haven't overfitted?
+- If you were going to do some data cleaning, which features would you look at first, and why?
+- Next steps in making the model more robust?
 
-4. Discuss how you'd feel about making a *very* expensive recommendation on the basis of each of the three predictions against question.csv.
+4. Imagine you're asked to make a very expensive recommendation based on the model's prediction.  How do you feel for each of row 1, 2, and 3 in questions.csv?
