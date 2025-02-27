@@ -1,5 +1,5 @@
-# audette_ml_exercise
-ML interview exercise for Audette
+# ML Interview Exercise
+This is an ML interview framework that I built for a friend's company.
 
 ### Files
 #### For the exercise
