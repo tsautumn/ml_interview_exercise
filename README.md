@@ -2,12 +2,12 @@
 This is an ML interview framework that I built for a friend's company.
 
 ### Files
-#### For the exercise
+#### For the applicant
 - Exercise.ipynb - a template that appropriately loads the data and the questions
 - dataset.csv - training/test data
 - questions.csv - three rows for prediction and discussion
 
-### For Audette
+### For the interviewer
 - Generate.ipynb - Poorly documented notebook to create training and question data
 - Building....xlsx - your raw excel, needed by Generate.ipynb
 - Demo.ipynb - an example solution with LGBM
